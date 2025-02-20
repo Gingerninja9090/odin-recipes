@@ -1,0 +1,14 @@
+/* h1 Headers style*/
+h1 {
+    background-color: red;
+    font-weight: 800;
+    font-size: 32px;
+    text-align: center;
+}
+
+/* recipe list links style*/
+ul {
+    background-color: orange;
+    color: rgb(80, 75, 70);
+    font-size: 20px;
+}
