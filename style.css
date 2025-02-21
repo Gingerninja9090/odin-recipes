@@ -1,5 +1,5 @@
 /* h1 Headers style*/
-h1 {
+#header {
     background-color: red;
     font-weight: 800;
     font-size: 32px;
@@ -7,8 +7,14 @@ h1 {
 }
 
 /* recipe list links style*/
-ul {
+.unordered.recipes {
     background-color: orange;
     color: rgb(80, 75, 70);
     font-size: 20px;
+}
+
+/*Yea boi gif style*/
+#foods {
+    height: auto;
+    width: 10;
 }
