@@ -4,6 +4,7 @@ h1 {
     font-weight: 800;
     font-size: 32px;
     text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 /* header images style */
@@ -25,20 +26,23 @@ h3 {
     font-weight: 800;
     font-size: 26px;
     text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 /* ingredents & steps style */
 ul, ol {
     background-color: darkgrey;
     color: white;
-    font-size: 18px;
+    font-size: 16px;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 /* paragraph style */
 p {
     background-color: darkgrey;
     color: white;
-    font-size: 18px;
+    font-size: 16px;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 /* button return */
@@ -53,4 +57,5 @@ button {
     background-color: orange;
     color: rgb(80, 75, 70);
     font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
