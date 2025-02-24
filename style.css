@@ -1,20 +1,56 @@
-/* h1 Headers style*/
-#header {
+/* h1 headers style*/
+h1 {
     background-color: red;
     font-weight: 800;
     font-size: 32px;
     text-align: center;
 }
 
-/* recipe list links style*/
+/* header images style */
+.image-standard {
+    text-align: center;
+    background-color: grey;
+}
+
+/* header images style #2*/
+.image-header {
+    height: auto;
+    width: 380px;
+}
+
+/* h3 headers style*/
+h3 {
+    background-color: hsl(74, 73%, 51%);
+    color: #BF40BF;
+    font-weight: 800;
+    font-size: 26px;
+    text-align: center;
+}
+
+/* ingredents & steps style */
+ul, ol {
+    background-color: darkgrey;
+    color: white;
+    font-size: 18px;
+}
+
+/* paragraph style */
+p {
+    background-color: darkgrey;
+    color: white;
+    font-size: 18px;
+}
+
+/* button return */
+button {
+    background-color: grey;
+    color: blue;
+    font-size: 20px;
+}
+
+/* index recipe list links style*/
 .unordered.recipes {
     background-color: orange;
     color: rgb(80, 75, 70);
     font-size: 20px;
-}
-
-/*Yea boi gif style*/
-#foods {
-    height: auto;
-    width: 10;
 }
