@@ -5,18 +5,21 @@ h1 {
     font-size: 32px;
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
-/* header images style */
-.image-standard {
-    text-align: center;
-    background-color: grey;
+    padding: 7px;
+    border: 3px solid black;
+    border-radius: 7px;
+    margin: 8px;
 }
 
 /* header images style #2*/
 .image-header {
     height: auto;
     width: 380px;
+    display: block;
+    padding: 10px;
+    background-color: grey;
+    border: 3px solid black;
+    margin: auto;
 }
 
 /* h3 headers style*/
@@ -27,6 +30,10 @@ h3 {
     font-size: 26px;
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 7px;
+    border: 3px solid black;
+    border-radius: 7px;
+    margin: 8px;
 }
 
 /* ingredents & steps style */
@@ -35,6 +42,10 @@ ul, ol {
     color: white;
     font-size: 16px;
     font-family: 'Courier New', Courier, monospace;
+    padding: 4px;
+    border: 2px solid black;
+    border-radius: 7px;
+    margin: 8px;
 }
 
 /* paragraph style */
@@ -43,13 +54,25 @@ p {
     color: white;
     font-size: 16px;
     font-family: 'Courier New', Courier, monospace;
+    padding: 4px;
+    border: 2px solid black;
+    border-radius: 7px;
+    margin: 8px;
 }
 
 /* button return */
 button {
-    background-color: grey;
-    color: blue;
+    display: block;
+    background-color: white;
     font-size: 20px;
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: auto;
+}
+
+button:hover {
+    background-color: lightblue;
 }
 
 /* index recipe list links style*/
@@ -58,4 +81,7 @@ button {
     color: rgb(80, 75, 70);
     font-size: 20px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 5px;
+    border: 3px solid black;
+    margin: 8px;
 }
